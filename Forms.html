@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Adoção - REAP!</title>
+    <link rel="stylesheet" href="F.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="PI.html">Início </a>
+        </ul>
+    </nav>
+
+    <h1>REAP!</h1>
+    <h2>Formulário de Adoção</h2>
+
+    <p>Preencha os dados abaixo para iniciar o processo de adoção!</p>
+
+    <form>
+
+        <h2>Seus dados</h2>
+
+        <label>Nome completo:</label>
+        <input type="text" name="nome" required>
+
+        <br><br>
+
+        <label>CPF:</label>
+        <input type="text" name="cpf" placeholder="000.000.000-00" required>
+
+        <br><br>
+
+        <label>Data de nascimento:</label>
+        <input type="date" name="nascimento" required>
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <br><br>
+
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" required>
+
+        <br><br>
+
+        <label>Endereço completo:</label>
+        <input type="text" name="endereco" required>
+
+        <br><br>
+
+        <h2>Sobre sua moradia</h2>
+
+        <label>Onde o animal vai morar?</label>
+
+        <br>
+
+        <input type="radio" name="moradia" value="Casa" required>
+        Casa
+
+        <input type="radio" name="moradia" value="Apartamento">
+        Apartamento
+
+        <input type="radio" name="moradia" value="Outro">
+        Outro
+
+        <br><br>
+
+        <label>Se marcou "Outro", informe o local:</label>
+        <input type="text" name="outroLocal">
+
+        <br><br>
+
+        <label>O imóvel é próprio ou alugado?</label>
+
+        <br>
+
+        <input type="radio" name="imovel" value="Proprio" required>
+        Próprio
+
+        <input type="radio" name="imovel" value="Alugado">
+        Alugado
+
+        <br><br>
+
+        <label>Quantas pessoas moram na residência?</label> <br>
+
+        <input type="radio" name="moradores" value="1" required>
+        1
+        
+        <input type="radio" name="moradores" value="2">
+        2   
+
+        <input type="radio" name="moradores" value="3 ou mais">
+        3 ou mais
+
+        <br>
+
+        <label>Todos os moradores concordam com a adoção?</label>
+
+        <br>
+
+        <input type="radio" name="concordancia" value="Sim" required>
+        Sim
+
+        <input type="radio" name="concordancia" value="Não">
+        Não
+
+        <br><br>
+
+        <h2>Sobre os cuidados com o pet</h2>
+
+        <label>Você já teve animais anteriormente?</label>
+
+        <br>
+
+        <input type="radio" name="experiencia" value="Sim" required>
+        Sim
+
+        <input type="radio" name="experiencia" value="Não">
+        Não
+
+        <br><br>
+
+        <label>Há outros animais na residência?</label>
+
+        <br>
+
+        <input type="radio" name="outrosAnimais" value="Sim" required>
+        Sim
+
+        <input type="radio" name="outrosAnimais" value="Não">
+        Não
+
+        <br><br>
+
+        <label>Quanto tempo o pet ficará sozinho por dia?</label>
+
+        <br>
+
+        <input type="radio" name="tempoSozinho" value="Nenhum">
+        Nenhum
+
+        <input type="radio" name="tempoSozinho" value="Ate 4 horas">
+        Até 4 horas
+
+        <input type="radio" name="tempoSozinho" value="De 4 a 8 horas">
+        De 4 a 8 horas
+
+        <input type="radio" name="tempoSozinho" value="Mais de 8 horas">
+        Mais de 8 horas
+
+        <br><br>
+
+        <label>Você tem condições de arcar com alimentação, vacinas e cuidados veterinários?</label>
+
+        <br>
+
+        <input type="radio" name="condicoes" value="Sim" required>
+        Sim
+
+        <input type="radio" name="condicoes" value="Não">
+        Não
+
+        <br><br>
+
+        <label>Por que você deseja adotar um pet?</label>
+
+        <br>
+
+        <textarea name="motivo" rows="4" required></textarea>
+
+        <br><br>
+
+        <label>O que você faria se não pudesse mais cuidar do animal?</label>
+
+        <br>
+
+        <textarea name="responsabilidade" rows="4" required></textarea>
+
+        <br><br>
+
+        <input type="checkbox" name="compromisso" required>
+        Comprometo-me a cuidar do animal com responsabilidade.
+
+        <br><br>
+
+        <input type="submit" value="Enviar formulário">
+
+    </form>
+
+</body>
+</html>

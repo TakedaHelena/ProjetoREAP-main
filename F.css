@@ -1,0 +1,65 @@
+
+/* Formulário de adoção */
+
+form {
+    background-color: rgb(152, 184, 231);
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+form h2 {
+    color: #2e6488;
+    text-align: center;
+}
+
+form label {
+    color: rgb(70, 100, 165);
+    font-size: 20px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin: 10px;
+}
+
+form input[type="submit"] {
+    background-color: rgb(68, 99, 155);
+    color: #ced6e9;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2e6488;
+}
+
+form input[type="date"] {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    box-sizing: border-box;
+}
